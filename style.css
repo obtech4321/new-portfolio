@@ -1,0 +1,102 @@
+body {
+    padding-top: 56px;
+}
+
+.hero {
+    background: #f8f9fa;
+}
+
+.profile-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.profile-circle i {
+    font-size: 150px;
+}
+
+.about-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    background: #0d6efd;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.about-image i {
+    font-size: 130px;
+}
+
+
+
+nav{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+.container a{
+    color: black;
+}
+.container a:hover{
+    color: blue;
+}
+.service-card,
+.project-card {
+    transition: 0.3s;
+}
+
+.service-card:hover,
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-image {
+    height: 220px;
+    background: #212529;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.progress {
+    height: 10px;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+
+
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode .bg-light {
+    background: #1e1e1e !important;
+}
+
+.dark-mode .card {
+    background: #242424;
+    color: white;
+}
+
+.dark-mode .text-secondary {
+    color: #ccc !important;
+}
